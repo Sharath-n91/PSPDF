@@ -1,0 +1,14 @@
+<div class="dialog-container">
+    <div class="d-title">
+        <span>PS PDF Viewer</span>
+        <div class="d-close-icon" (click)="closeDialog()">
+            <img src="./assets/Close.svg" alt="...">
+        </div>
+    </div>
+    <div class="d-body cstm-scroll">
+        <div class="app">
+            <!-- We'll mount the PSPDFKit UI to this element. -->
+            <div id="pspdfkit-container" style="width: 100%; height: calc(100vh - 68px)"></div>
+        </div>
+    </div>
+</div>

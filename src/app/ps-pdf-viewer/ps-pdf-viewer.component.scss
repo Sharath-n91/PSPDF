@@ -1,0 +1,8 @@
+.dialog-container .d-body  {
+    padding: 0px !important;
+    height: calc(100vh - 68px);
+    .pspdfkit-container {
+        width: 100%;
+        height: calc(100vh - 68px);
+    }
+}

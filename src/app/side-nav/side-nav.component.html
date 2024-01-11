@@ -1,0 +1,39 @@
+<div class="nav-menu">
+
+    <a class="menu-link" routerLink="">
+      <div class="collapse-icon" *ngIf="!lnMenuMouseEnter">
+        <img src="./assets/Home.svg" alt="...">
+      </div>
+      <div class="menu-content" *ngIf="lnMenuMouseEnter">
+        <div class="menu-content-items">
+        <!-- <div class="menu-content-items" routerLink="/home"> -->
+          <img src="./assets/Home.svg" alt="...">
+          <span class="ln-menu-text">Home</span>
+        </div>
+      </div>
+    </a>
+  
+    <a class="menu-link" routerLink="" (click)="openPDFDialog()">
+      <div class="collapse-icon" *ngIf="!lnMenuMouseEnter">
+        <img src="./assets/Client_View.svg" alt="...">
+      </div>
+      <div class="menu-content" *ngIf="lnMenuMouseEnter">
+        <div class="menu-content-items">
+          <img src="./assets/Client_View.svg" alt="...">
+          <span class="ln-menu-text">PS PDF Dialog</span>
+        </div>
+      </div>
+    </a>
+  
+    <!-- <a class="menu-link" routerLink="">
+      <div class="collapse-icon" *ngIf="!lnMenuMouseEnter">
+        <img src="./assets/Franchise.svg" alt="...">
+      </div>
+      <div class="menu-content" *ngIf="lnMenuMouseEnter">
+        <div class="menu-content-items">
+          <img src="./assets/Franchise.svg" alt="...">
+          <span class="ln-menu-text">PDF</span>
+        </div>
+      </div>
+    </a> -->
+  </div>
