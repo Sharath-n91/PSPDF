@@ -1,27 +1,15 @@
-# PSPDFV8
+Project Setup Steps!!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.26.
+1. Download or clone the PSPDF-ng8 from git.
 
-## Development server
+2. Open the project in any code editor(Ex: VS code).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+3. In your terminal or command prompt, navigate to the location where your "package.json" file is located. This should be in the root directory of "PSPDF-ng8". Once there, run the command npm install to install all the necessary project dependencies.
 
-## Code scaffolding
+4. To start your Angular project, use the Angular CLI command ng serve. After entering this command, press Enter.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+5. Once the project is successfully compiled and running, open your preferred web browser and navigate to http://localhost:4200/. This is where your Angular project will be live and accessible for interaction.
 
-## Build
+6. After application up and running, click on “PS PDF Dialog” left nav menu item. As shown in the attached screenshot.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+7. After 6th step, a dialog will pop up with PSPDF embedded.
