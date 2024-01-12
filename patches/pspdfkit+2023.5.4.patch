@@ -1,0 +1,22 @@
+diff --git a/node_modules/pspdfkit/dist/index.d.ts b/node_modules/pspdfkit/dist/index.d.ts
+index ffe79bc..c284e68 100644
+--- a/node_modules/pspdfkit/dist/index.d.ts
++++ b/node_modules/pspdfkit/dist/index.d.ts
+@@ -4862,7 +4862,7 @@ declare class Inset extends Inset_base {
+     apply(matrix: TransformationMatrix): Inset;
+     setScale(scale: number): Inset;
+ }
+-type InsetJSON = [left: number, top: number, right: number, bottom: number];
++type InsetJSON = number[];
+ 
+ type ActionCtorProps = {
+     subActions?: List<Action> | null;
+@@ -5920,7 +5920,7 @@ type OCGVisibilityState = {
+     visibleOCGIds: number[];
+ };
+ 
+-type IRectJSON = [left: number, top: number, width: number, height: number];
++type IRectJSON = number[];
+ 
+ type BaseAnnotationJSON = {
+     v: number;
